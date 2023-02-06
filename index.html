@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>salário mensal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculando média salarial</h1>
+    </header>
+
+    <section>
+        <div class="valores">
+            <p class="campos">Salário mensal: <input type="number" id="salario"><br><br>
+            Horas trabalhadas por mês: <input type="number" id="horas"><br><br>
+            <input type="button" value="calcular" id="botao" onclick="calcular()">
+        </div>
+
+        <div class="aparecerNaTela" id="resultado">
+
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
